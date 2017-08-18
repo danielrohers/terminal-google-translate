@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const version = require('../package.json').version;
+const translate = require('../lib');
+
+program
+  .version(version)
+  .option('-l, --list', 'List languages')
+  .option('-i, --info [lang]', 'Info language')
+  .parse(process.argv);
+
+// TODO: to implement
+if (program.list) {
+  return console.log('list');
+}
+
+// TODO: to implement
+if (program.info) {
+  return console.log('info');
+}
+
+const { args } = program;
+
+if (args.length < 3) return program.outputHelp();
+
+const source = args[0];
+const target = args[1];
+const text = args.slice(2).join(' ');
+
+translate(source, target, text)
+  .then(console.log)
+  .catch(console.error);

@@ -1,0 +1,1 @@
+# terminal-google-translate

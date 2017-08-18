@@ -1,0 +1,23 @@
+{
+  "name": "terminal-google-translate",
+  "version": "0.0.1",
+  "description": "A simple terminal with google translate",
+  "main": "bin/translate",
+  "preferGlobal": true,
+  "bin": {
+    "translate": "./bin/translate"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "Daniel Rôhers Moura <rohersmoura@gmail.com> (https://github.com/danielrohers)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "node-google-translate-skidz": "^1.1.1",
+    "request": "^2.81.0"
+  }
+}
