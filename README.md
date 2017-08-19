@@ -29,4 +29,3 @@ Options:
 ```
 
 ![Usage](https://github.com/danielrohers/terminal-google-translate/blob/master/tty.gif)
-
