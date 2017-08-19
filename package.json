@@ -16,6 +16,7 @@
   "author": "Daniel Rôhers Moura <rohersmoura@gmail.com> (https://github.com/danielrohers)",
   "license": "MIT",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "commander": "^2.11.0",
     "node-google-translate-skidz": "^1.1.1",
     "request": "^2.81.0"
