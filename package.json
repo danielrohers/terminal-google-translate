@@ -20,5 +20,13 @@
     "commander": "^2.11.0",
     "node-google-translate-skidz": "^1.1.1",
     "request": "^2.81.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielrohers/terminal-google-translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielrohers/terminal-google-translate/issues"
+  },
+  "homepage": "https://github.com/danielrohers/terminal-google-translate"
 }

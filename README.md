@@ -27,4 +27,4 @@ Options:
   -h, --help     output usage information
 ```
 
-![Usage](https://github.com/danielrohers/terminal-google-translate/blob/master/tty.gif)
+![Usage](https://github.com/danielrohers/terminal-google-translate/blob/master/example.gif)
