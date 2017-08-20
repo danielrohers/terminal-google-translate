@@ -1,6 +1,6 @@
 {
   "name": "terminal-google-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple terminal with google translate",
   "main": "bin/translate",
   "preferGlobal": true,
